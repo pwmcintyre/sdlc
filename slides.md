@@ -3,27 +3,24 @@ theme: "black"
 transition: "slide"
 highlightTheme: "monokai"
 slideNumber: true
-title: "Software Delivery in the Real World"
+title: "Shipping Software"
 ---
 
-# Software Delivery in the Real World
+# Shipping Software
 
-What it actually means to ship software at scale
+Peter McIntyre
 
-<br>
-
-Principal Software Engineer | Melbourne
-20 years building enterprise systems
+Principal Software Engineer
 
 ---
 
 ## What We'll Cover Today
 
-- The Software Development Lifecycle (SDLC) {.fragment}
-- The technical stack & tools we use {.fragment}
-- Agile & ways of working {.fragment}
-- Real challenges you'll face {.fragment}
-- What to expect in your career {.fragment}
+- The Software Development Lifecycle (SDLC)
+- The technical stack & tools we use
+- Agile & ways of working
+- Real challenges you'll face
+- What to expect in your career
 
 Note: Set expectations: this is the real-world view, not the textbook version. I want you to walk away knowing what day-to-day software delivery actually looks like.
 
@@ -35,33 +32,39 @@ Or: How software actually gets built
 
 --
 
-### The Textbook Version
+### Textbook SDLC
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 1rem; font-size: 1.5em;">
-<span class="fragment">Plan</span>
-<span class="fragment">→</span>
-<span class="fragment">Code</span>
-<span class="fragment">→</span>
-<span class="fragment">Build</span>
-<span class="fragment">→</span>
-<span class="fragment">Test</span>
-<span class="fragment">→</span>
-<span class="fragment">Deploy</span>
-<span class="fragment">→</span>
-<span class="fragment">Monitor</span>
-</div>
+Plan → Build → Test → Release → Monitor
 
-Note: This is what you'll see in most introductory materials. It's not wrong, but it's overly simplified.
+--
+
+### SDLC vs Agile vs DevOps
+
+You'll hear these terms constantly - here's how they fit together:
+
+- **SDLC:** The overall framework for building software (the "what")
+- **Agile:** A methodology for working iteratively and flexibly (the "how" for development)
+- **DevOps:** A culture of automation and continuous delivery (the "how" for shipping)
+
+They work together: SDLC is the structure, Agile is how you develop, DevOps is how you deliver.
+
+Note: SDLC is the umbrella term. Agile is one way to implement the development phases of SDLC. DevOps extends Agile practices into operations and deployment. You don't choose one - you use all three together.
+
+--
+
+### DevOps
+
+![DevOps Infinity Loop](devops-infinity-loop.png)
 
 --
 
 ### The Reality
 
-- It's a **continuous loop**, not linear {.fragment}
-- Monitoring feeds back into planning {.fragment}
-- You're often coding, testing, and fixing simultaneously {.fragment}
-- Production issues interrupt everything {.fragment}
-- Requirements change mid-sprint {.fragment}
+- It's a **continuous loop**, not linear
+- Monitoring feeds back into planning
+- You're often coding, testing, and fixing simultaneously
+- Production issues interrupt everything
+- Requirements change mid-sprint
 
 Note: The SDLC is more like a circle with lots of smaller circles inside it. You'll rarely complete one phase before starting another.
 
@@ -69,14 +72,14 @@ Note: The SDLC is more like a circle with lots of smaller circles inside it. You
 
 ### A Day in the Life
 
-- **9:00am:** Daily standup - what did I do yesterday? what will I do today? {.fragment}
-- **9:15am:** Start coding the new feature from sprint backlog {.fragment}
-- **10:30am:** Production alert - investigate and hotfix {.fragment}
-- **11:30am:** Code review for teammate's PR {.fragment}
-- **1:00pm:** Back to feature work {.fragment}
-- **2:00pm:** Sprint planning meeting {.fragment}
-- **3:30pm:** Debug failing CI pipeline {.fragment}
-- **4:30pm:** Finish feature, open PR, write tests {.fragment}
+- **9:00am:** Daily standup - what did I do yesterday? what will I do today?
+- **9:15am:** Start coding the new feature from sprint backlog
+- **10:30am:** Production alert - investigate and hotfix
+- **11:30am:** Code review for teammate's PR
+- **1:00pm:** Back to feature work
+- **2:00pm:** Sprint planning meeting
+- **3:30pm:** Debug failing CI pipeline
+- **4:30pm:** Finish feature, open PR, write tests
 
 Note: This is why time management and context switching are critical skills. You're juggling multiple phases of SDLC throughout the day.
 
@@ -90,12 +93,12 @@ Tools you'll use every single day
 
 ### Development Environment
 
-- **IDE:** VS Code, IntelliJ, etc. {.fragment}
-- **Version Control:** Git (GitHub, GitLab, Bitbucket) {.fragment}
-- **Local Environment:** Docker, Docker Compose {.fragment}
-- **Package Managers:** npm, pip, maven, gradle {.fragment}
+- **IDE:** VS Code, IntelliJ, etc.
+- **Version Control:** Git (GitHub, GitLab, Bitbucket)
+- **Local Environment:** Docker, Docker Compose
+- **Package Managers:** npm, pip, maven, gradle
 
-Git is non-negotiable. Learn it well. {.fragment}
+Git is non-negotiable. Learn it well.
 
 Note: You'll spend 80% of your time in your IDE and terminal. Docker lets you run complex systems locally without installing everything natively.
 
@@ -105,8 +108,8 @@ Note: You'll spend 80% of your time in your IDE and terminal. Docker lets you ru
 
 Continuous Integration / Continuous Deployment
 
-- **CI Tools:** Jenkins, GitHub Actions, GitLab CI, CircleCI {.fragment}
-- **What happens:** {.fragment}
+- **CI Tools:** Jenkins, GitHub Actions, GitLab CI, CircleCI
+- **What happens:**
   1. You push code to a branch
   2. Pipeline runs: lint, unit tests, integration tests
   3. Build Docker image
@@ -156,13 +159,13 @@ Note: At enterprise scale, you're not managing servers manually. Everything is c
 
 ### Monitoring & Observability
 
-- **Application Monitoring:** DataDog, New Relic, Dynatrace {.fragment}
-- **Error Tracking:** Sentry, Rollbar {.fragment}
-- **Logs:** CloudWatch, Elasticsearch/Kibana, Splunk {.fragment}
-- **Metrics:** Prometheus, Grafana {.fragment}
-- **Alerting:** PagerDuty, OpsGenie {.fragment}
+- **Application Monitoring:** DataDog, New Relic, Dynatrace
+- **Error Tracking:** Sentry, Rollbar
+- **Logs:** CloudWatch, Elasticsearch/Kibana, Splunk
+- **Metrics:** Prometheus, Grafana
+- **Alerting:** PagerDuty, OpsGenie
 
-If you can't measure it, you can't improve it. {.fragment}
+If you can't measure it, you can't improve it.
 
 Note: You'll spend a lot of time looking at dashboards and logs. When something breaks at 3am, these tools are how you figure out what went wrong.
 
@@ -207,13 +210,13 @@ How teams actually work together
 
 ### The Sprint Cycle (2 weeks)
 
-- **Sprint Planning:** Team picks work from backlog for next 2 weeks {.fragment}
-- **Daily Standup:** 15min sync - what did you do? what will you do? any blockers? {.fragment}
-- **Sprint Work:** Code, review, deploy, repeat {.fragment}
-- **Sprint Review:** Demo completed work to stakeholders {.fragment}
-- **Retrospective:** What went well? What can improve? {.fragment}
+- **Sprint Planning:** Team picks work from backlog for next 2 weeks
+- **Daily Standup:** 15min sync - what did you do? what will you do? any blockers?
+- **Sprint Work:** Code, review, deploy, repeat
+- **Sprint Review:** Demo completed work to stakeholders
+- **Retrospective:** What went well? What can improve?
 
-Then repeat. Forever. {.fragment}
+Then repeat. Forever.
 
 Note: Agile is about iteration and continuous improvement. It's not about being perfect, it's about getting better every sprint.
 
@@ -221,10 +224,10 @@ Note: Agile is about iteration and continuous improvement. It's not about being 
 
 ### Tickets & Story Points
 
-- **Tools:** Jira, Linear, Azure DevOps {.fragment}
-- **Story Points:** Relative effort (1, 2, 3, 5, 8, 13) {.fragment}
-- **Ticket States:** Backlog → In Progress → Code Review → QA → Done {.fragment}
-- Your velocity improves as you learn the system {.fragment}
+- **Tools:** Jira, Linear, Azure DevOps
+- **Story Points:** Relative effort (1, 2, 3, 5, 8, 13)
+- **Ticket States:** Backlog → In Progress → Code Review → QA → Done
+- Your velocity improves as you learn the system
 
 Note: Story points are not hours. They're relative complexity. A 5-point story is roughly 5x more complex than a 1-point story.
 
@@ -234,14 +237,14 @@ Note: Story points are not hours. They're relative complexity. A 5-point story i
 
 One of the most important practices
 
-- **Why:** Catch bugs, share knowledge, maintain quality {.fragment}
-- **What reviewers look for:** {.fragment}
+- **Why:** Catch bugs, share knowledge, maintain quality
+- **What reviewers look for:**
   - Does it solve the problem?
   - Are there bugs or edge cases?
   - Is it readable and maintainable?
   - Does it follow team conventions?
   - Are tests included?
-- **Pro tip:** Small PRs get reviewed faster {.fragment}
+- **Pro tip:** Small PRs get reviewed faster
 
 Note: Code reviews are where you'll learn the most as a junior dev. Both from receiving feedback and from reviewing others' code. Don't take feedback personally - everyone's code gets reviewed.
 
@@ -249,13 +252,13 @@ Note: Code reviews are where you'll learn the most as a junior dev. Both from re
 
 ### Collaboration is Key
 
-- You'll spend more time communicating than coding {.fragment}
-- Slack/Teams for async communication {.fragment}
-- Video calls for complex discussions {.fragment}
-- Documentation for knowledge sharing {.fragment}
-- Pair programming for complex problems {.fragment}
+- You'll spend more time communicating than coding
+- Slack/Teams for async communication
+- Video calls for complex discussions
+- Documentation for knowledge sharing
+- Pair programming for complex problems
 
-Software engineering is a team sport. {.fragment}
+Software engineering is a team sport.
 
 Note: The lone genius programmer is a myth. Real work happens through collaboration and clear communication.
 
@@ -269,16 +272,16 @@ The stuff they don't tell you in tutorials
 
 ### Production Incidents
 
-- **It's not "if", it's "when"** {.fragment}
-- **On-call rotation:** You're responsible for production health {.fragment}
-- **Incident response:** {.fragment}
+- **It's not "if", it's "when"**
+- **On-call rotation:** You're responsible for production health
+- **Incident response:**
   1. Alert fires (PagerDuty wakes you up)
   2. Assess impact and severity
   3. Mitigate/rollback if needed
   4. Investigate root cause
   5. Write postmortem
   6. Implement fixes to prevent recurrence
-- **Blameless culture:** Focus on systems, not individuals {.fragment}
+- **Blameless culture:** Focus on systems, not individuals
 
 Note: Everyone breaks production eventually. It's how you respond that matters. Good companies have blameless postmortems to learn from incidents.
 
@@ -286,14 +289,14 @@ Note: Everyone breaks production eventually. It's how you respond that matters. 
 
 ### Legacy Code & Technical Debt
 
-- You'll spend more time reading code than writing it {.fragment}
-- Most codebases are 5-10+ years old {.fragment}
-- Technical debt accumulates from: {.fragment}
+- You'll spend more time reading code than writing it
+- Most codebases are 5-10+ years old
+- Technical debt accumulates from:
   - Rushed deadlines
   - Changing requirements
   - Technologies becoming outdated
   - People leaving and taking context with them
-- Balance: new features vs. paying down debt {.fragment}
+- Balance: new features vs. paying down debt
 
 Note: The code you write today is tomorrow's legacy code. Write it with future-you in mind.
 
@@ -301,13 +304,13 @@ Note: The code you write today is tomorrow's legacy code. Write it with future-y
 
 ### Scaling Challenges
 
-- **Performance:** What works for 100 users doesn't work for 1M {.fragment}
-- **Database bottlenecks:** Query optimization, caching, sharding {.fragment}
-- **Distributed systems:** Multiple services, eventual consistency {.fragment}
-- **Load balancing:** Spreading traffic across servers {.fragment}
-- **Cost optimization:** AWS bills can get expensive fast {.fragment}
+- **Performance:** What works for 100 users doesn't work for 1M
+- **Database bottlenecks:** Query optimization, caching, sharding
+- **Distributed systems:** Multiple services, eventual consistency
+- **Load balancing:** Spreading traffic across servers
+- **Cost optimization:** AWS bills can get expensive fast
 
-Premature optimization is evil, but so is ignoring scale. {.fragment}
+Premature optimization is evil, but so is ignoring scale.
 
 Note: At enterprise scale, you can't just throw more servers at the problem. You need to think about architecture, data patterns, caching strategies.
 
@@ -338,7 +341,7 @@ Note: At enterprise scale, you can't just throw more servers at the problem. You
 </div>
 </div>
 
-Shipping imperfect software beats perfect software that never ships. {.fragment}
+Shipping imperfect software beats perfect software that never ships.
 
 Note: You'll constantly balance quality vs. speed. The key is knowing which tradeoffs are acceptable and which aren't. Security? Non-negotiable. Refactoring that function? Can wait.
 
@@ -346,10 +349,10 @@ Note: You'll constantly balance quality vs. speed. The key is knowing which trad
 
 ### Working with Ambiguity
 
-- Requirements are rarely crystal clear {.fragment}
-- Ask questions early and often {.fragment}
-- Build MVPs to validate assumptions {.fragment}
-- User feedback will change everything anyway {.fragment}
+- Requirements are rarely crystal clear
+- Ask questions early and often
+- Build MVPs to validate assumptions
+- User feedback will change everything anyway
 
 Note: Get comfortable with uncertainty. Your job is to clarify requirements, not just implement them blindly.
 
@@ -363,12 +366,12 @@ The journey from junior to principal
 
 ### Junior → Mid → Senior → Principal
 
-- **Junior (0-2 years):** Learn the basics, fix bugs, build features with guidance {.fragment}
-- **Mid (2-5 years):** Own features end-to-end, mentor juniors, less supervision {.fragment}
-- **Senior (5-10 years):** Design systems, lead projects, make architectural decisions {.fragment}
-- **Principal (10+ years):** Set technical direction, solve org-wide problems, influence strategy {.fragment}
+- **Junior (0-2 years):** Learn the basics, fix bugs, build features with guidance
+- **Mid (2-5 years):** Own features end-to-end, mentor juniors, less supervision
+- **Senior (5-10 years):** Design systems, lead projects, make architectural decisions
+- **Principal (10+ years):** Set technical direction, solve org-wide problems, influence strategy
 
-These are rough guidelines. Focus on impact, not titles. {.fragment}
+These are rough guidelines. Focus on impact, not titles.
 
 Note: Progression isn't automatic. You grow by taking on more responsibility. Each level requires different skills - coding skills plateau, but leadership skills grow.
 
@@ -376,12 +379,12 @@ Note: Progression isn't automatic. You grow by taking on more responsibility. Ea
 
 ### Your First Job
 
-- You won't know everything (nobody does) {.fragment}
-- Imposter syndrome is normal {.fragment}
-- Ask questions - it's expected {.fragment}
-- Focus on learning, not looking smart {.fragment}
-- Find a mentor or senior to learn from {.fragment}
-- You'll make mistakes - own them and learn {.fragment}
+- You won't know everything (nobody does)
+- Imposter syndrome is normal
+- Ask questions - it's expected
+- Focus on learning, not looking smart
+- Find a mentor or senior to learn from
+- You'll make mistakes - own them and learn
 
 Note: The difference between junior and senior isn't knowledge. It's knowing what you don't know and how to find answers.
 
@@ -389,16 +392,16 @@ Note: The difference between junior and senior isn't knowledge. It's knowing wha
 
 ### Continuous Learning
 
-- Technology changes constantly {.fragment}
-- What you learn in university is just the foundation {.fragment}
-- Ways to keep learning: {.fragment}
+- Technology changes constantly
+- What you learn in university is just the foundation
+- Ways to keep learning:
   - Read other people's code
   - Contribute to open source
   - Build side projects
   - Read documentation (seriously)
   - Follow industry blogs and conferences
   - Learn from production incidents
-- Focus on fundamentals that don't change: algorithms, data structures, design patterns {.fragment}
+- Focus on fundamentals that don't change: algorithms, data structures, design patterns
 
 Note: The specific tools will change, but the underlying principles stay the same. Learn how to learn, not just what to learn.
 
@@ -406,12 +409,12 @@ Note: The specific tools will change, but the underlying principles stay the sam
 
 ### Red Flags in Companies
 
-- No code reviews or testing {.fragment}
-- Constant firefighting, no time for improvement {.fragment}
-- Blame culture around mistakes {.fragment}
-- No documentation or knowledge sharing {.fragment}
-- Unlimited overtime expectations {.fragment}
-- No investment in developer tools or training {.fragment}
+- No code reviews or testing
+- Constant firefighting, no time for improvement
+- Blame culture around mistakes
+- No documentation or knowledge sharing
+- Unlimited overtime expectations
+- No investment in developer tools or training
 
 Note: You'll learn bad habits at bad companies. Look for places that invest in quality and their people.
 
@@ -419,13 +422,13 @@ Note: You'll learn bad habits at bad companies. Look for places that invest in q
 
 ### Green Flags in Companies
 
-- Strong engineering culture {.fragment}
-- Automated CI/CD and testing {.fragment}
-- Blameless postmortems {.fragment}
-- Time allocated for tech debt and learning {.fragment}
-- Good documentation and onboarding {.fragment}
-- Healthy work-life balance {.fragment}
-- Clear career progression paths {.fragment}
+- Strong engineering culture
+- Automated CI/CD and testing
+- Blameless postmortems
+- Time allocated for tech debt and learning
+- Good documentation and onboarding
+- Healthy work-life balance
+- Clear career progression paths
 
 Note: Ask about these things in interviews. The company is interviewing you, but you're also interviewing them.
 
@@ -433,13 +436,13 @@ Note: Ask about these things in interviews. The company is interviewing you, but
 
 ### Skills Beyond Code
 
-- **Communication:** Explaining technical concepts clearly {.fragment}
-- **Empathy:** Understanding user needs and team dynamics {.fragment}
-- **Time management:** Balancing multiple priorities {.fragment}
-- **Problem-solving:** Breaking down complex problems {.fragment}
-- **Adaptability:** Technologies and priorities change {.fragment}
+- **Communication:** Explaining technical concepts clearly
+- **Empathy:** Understanding user needs and team dynamics
+- **Time management:** Balancing multiple priorities
+- **Problem-solving:** Breaking down complex problems
+- **Adaptability:** Technologies and priorities change
 
-These "soft skills" become more important as you advance. {.fragment}
+These "soft skills" become more important as you advance.
 
 Note: At senior+ levels, your technical skills are assumed. What differentiates you is how you work with others and drive impact.
 
@@ -447,13 +450,13 @@ Note: At senior+ levels, your technical skills are assumed. What differentiates 
 
 ## Key Takeaways
 
-- Software delivery is a cycle, not a waterfall {.fragment}
-- Master the tools: Git, CI/CD, cloud platforms {.fragment}
-- Agile is about people and iteration, not just process {.fragment}
-- You'll spend more time on maintenance than greenfield {.fragment}
-- Communication and collaboration > solo coding {.fragment}
-- Keep learning, stay curious, ask questions {.fragment}
-- Find a company with good engineering culture {.fragment}
+- Software delivery is a cycle, not a waterfall
+- Master the tools: Git, CI/CD, cloud platforms
+- Agile is about people and iteration, not just process
+- You'll spend more time on maintenance than greenfield
+- Communication and collaboration > solo coding
+- Keep learning, stay curious, ask questions
+- Find a company with good engineering culture
 
 ---
 
