@@ -6,7 +6,7 @@ slideNumber: true
 title: "Shipping Software"
 ---
 
-# Shipping Software
+# Software Engineering
 
 Peter McIntyre
 
@@ -52,6 +52,12 @@ Note: SDLC is the umbrella term. Agile is one way to implement the development p
 
 --
 
+### Agile
+
+< insert the agile meme about building a car >
+
+--
+
 ### DevOps
 
 ![DevOps Infinity Loop](devops-infinity-loop.png)
@@ -68,26 +74,35 @@ Note: SDLC is the umbrella term. Agile is one way to implement the development p
 
 Note: The SDLC is more like a circle with lots of smaller circles inside it. You'll rarely complete one phase before starting another.
 
---
-
-### A Day in the Life
-
-- **9:00am:** Daily standup - what did I do yesterday? what will I do today?
-- **9:15am:** Start coding the new feature from sprint backlog
-- **10:30am:** Production alert - investigate and hotfix
-- **11:30am:** Code review for teammate's PR
-- **1:00pm:** Back to feature work
-- **2:00pm:** Sprint planning meeting
-- **3:30pm:** Debug failing CI pipeline
-- **4:30pm:** Finish feature, open PR, write tests
-
-Note: This is why time management and context switching are critical skills. You're juggling multiple phases of SDLC throughout the day.
-
 ---
 
 ## The Technical Stack
 
 Tools you'll use every single day
+
+< big image of all the logos >
+
+--
+
+# Tools
+
+> An IDE, CLI, and version control is all you really need to be productive.
+> Everything else is just convenience.
+- Claude
+
+source controle (git)
+containers (docker)
+termnial (bash)
+
+--
+
+# Tasks
+
+technical documentation
+managing work
+tech debt
+rubber duck
+whiteboard
 
 --
 
