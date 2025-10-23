@@ -14,13 +14,12 @@ Principal Software Engineer
 
 ---
 
-## What We'll Cover
+## Agenda
 
 - My story
-- What is software delivery
-- Patterns that emerge
-- Tools of the trade
-- The impact of AI
+- What is "software engineering"?
+- Method
+- AI
 - Questions
 
 ---
@@ -29,9 +28,11 @@ Principal Software Engineer
 
 - Video Games
 - Calculators
-- No idea, no plan
-- Opportunity!
-- Mainframes > Cloud > Versent
+- Studied; Opportunity!
+- Mainframes > Cloud > Consulting
+
+> Luck is what happens when preparation meets opportunity
+> — Seneca
 
 ---
 
@@ -77,103 +78,43 @@ Plan → Build → Test → Release → Monitor
 
 ---
 
-## The Reality
+### Agile Manifesto
 
-- Context switching is inevitable
-- You can't control everything
-- Everything fails eventually
-- Production issues interrupt everything
-- Requirements change mid-sprint
+Written in 2001 by 17 software developers
+Goal: improve software development processes
 
----
-
-## Random Concepts
+- Individuals + interactions > processes + tools
+- Working software > comprehensive documentation
+- Deliver working software frequently
+- Responding to change over following a plan
 
 ---
 
-### Un/known Quadrants
+### Agile in Practice
 
-> "There are known knowns... known unknowns... but also unknown unknowns."
-> — Donald Rumsfeld
-
-( Awareness vs Understanding )
-
----
-
-### Code is a Liability
-
-> "Don't write code if you don't have to."
-> — Kelsey Hightower #nocode
-
-https://github.com/kelseyhightower/nocode
-
-> No code is the best way to write secure and reliable applications.
-> Write nothing; deploy nowhere.
+- Sprint planning (2-week cycles)
+- Daily standups (what did you do? blockers?)
+- Code reviews (catch bugs, share knowledge)
+- Retrospectives (what can improve?)
 
 ---
 
-### Concept: Choose Boring Technology
+## DevOps
 
-> "Let's say every company gets about three innovation tokens."
-> — Dan McKinley
-
-Spend them on your competitive advantage, not databases.
-
----
-
-## Enduring Skills
-
-- Technical writing
-- Working in a team
-- Source control (Git)
-- Networking / computer fundamentals (BS filter)
-
----
-
-## Surprisingly Hard Things
-
-- Time (timezones, leap seconds, distributed clocks)
-- Names (cache invalidation, naming variables)
-- Exactly once (impossible in distributed systems)
-- Auth (eternal cat-and-mouse game)
-
-These don't get solved. They get managed.
-
----
-
-## The Simplicity Paradox
-
-> If I had more time...
-> I'd have written a shorter letter.
-> — Blaise Pascal
-
-Complexity is easy.
-Simplicity is hard.
+- Continuous integration/continuous deployment (CI/CD)
+- Infrastructure as code (IaC)
+- Monitoring and observability
+- Incident response and blameless postmortems
 
 ---
 
 ## CI/CD: Confidence Through Automation
 
 **Why automate?**
-- Reduce friction and risk
-- Build confidence through consistency
-- Make deployment predictable, not stressful
+- Confidence through consistency
+- Predictable deploys to production = sleep
 
 > "Slow is smooth, smooth is fast."
-
-Automation removes anxiety.
-
----
-
-## Cloud Infrastructure
-
-**Compute:** EC2, containers, Lambda (serverless)
-
-**Storage:** S3, databases (RDS, DynamoDB)
-
-**Monitoring:** Logs, metrics, alerts
-
-**Infrastructure as Code:** Terraform, CloudFormation
 
 ---
 
@@ -190,28 +131,14 @@ Trust makes delivery stable, repeatable, and low-stress.
 
 ---
 
-## Working in Teams
+## Surprisingly Hard Things
 
-- Daily standups (what did you do? blockers?)
-- Sprint planning (2-week cycles)
-- Code reviews (catch bugs, share knowledge)
-- Retrospectives (what can improve?)
+- Time (timezones, leap seconds, distributed clocks)
+- Names (cache invalidation, naming variables)
+- Exactly once (impossible in distributed systems)
+- Auth (eternal cat-and-mouse game)
 
-Software engineering is a team sport.
-
----
-
-## Real Challenges
-
-**Production incidents:**
-- Not "if", but "when"
-- On-call rotation
-- Blameless postmortems
-
-**Legacy code:**
-- You'll read more than you write
-- Technical debt accumulates
-- Balance features vs. paying down debt
+These don't get solved. They get managed.
 
 ---
 
@@ -244,12 +171,13 @@ Shipping imperfect software beats perfect software that never ships.
 
 ## Career Progression
 
-- **Junior (0-2 years):** Learn basics, fix bugs
-- **Mid (2-5 years):** Own features, mentor juniors
-- **Senior (5-10 years):** Design systems, architectural decisions
-- **Principal (10+ years):** Set technical direction, org-wide impact
+Know your expectations:
 
-Focus on impact, not titles.
+- **Junior** Learn basics, be resourceful
+- **Mid:** Own features, mentor juniors
+- **Senior:** Provid advice, ship features
+- **Lead:** Design systems, architectural decisions
+- **Principal:** Set technical direction, org-wide impact
 
 ---
 
@@ -294,19 +222,6 @@ Technology changes constantly.
 - Time for tech debt and learning
 - Good documentation
 - Work-life balance
-
----
-
-## Skills Beyond Code
-
-- **Communication:** Explaining technical concepts clearly
-- **Empathy:** Understanding users and team dynamics
-- **Time management:** Balancing priorities
-- **Problem-solving:** Breaking down complexity
-- **Adaptability:** Technologies and priorities change
-
-These become more important as you advance.
-
 ---
 
 ## The Impact of AI
@@ -314,7 +229,6 @@ These become more important as you advance.
 **What's changing:**
 - Natural language interfaces replacing complex UIs
 - AI-assisted coding (GitHub Copilot, Claude Code)
-- Less code = Less maintenance
 
 **What's not changing:**
 - Need to understand fundamentals
@@ -326,32 +240,19 @@ These become more important as you advance.
 ## AI: Deletion Opportunity
 
 Before LLMs:
-- Hierarchical menus
-- Training manuals
-- Complex wizards
-- Keyboard shortcuts to memorize
+- Search engines
+- Administrative overhead
+- Complex UI's
 
 After LLMs:
-- Text box: "What do you want?"
-- Natural conversation
-- Zero training needed
+- Answer engines
+- Agentic assistants
+- Conversational interfaces
 
 ---
 
-## Key Takeaways
+## Outro / Questions
 
-- Master the basics: Git, CLI, containers
-- Choose boring technology, spend innovation tokens wisely
-- Code is a liability - celebrate deletions
-- Simplicity is hard work, complexity is easy
-- Watch when technology shifts impossibility boundaries
-- Communication > solo coding
-- Keep learning, stay curious
-- Find good engineering culture
-
----
-
-## Questions?
-
-Ask me anything about software delivery, career paths, or working in the industry.
-
+> I'd have written a shorter letter,
+> but I did not have the time.
+> ― Blaise Pascal
