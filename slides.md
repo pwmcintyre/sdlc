@@ -47,11 +47,7 @@ Desire versus possibility
 > The great growling engine of change - technology
 > — Alvin Toffler
 
-1. Desire exists (users want it)
-2. Technology doesn't exist (infeasible)
-3. 👨‍💻 Workarounds accumulate (complexity builds)
-4. 🔬 Technology breakthrough (constraint removed)
-5. 👨‍💻 **DELETE all the workarounds**
+Demand → 👨‍💻 Iterate → 🔬 Breakthrough → 👨‍💻 Simplify ⟲
 
 ---
 
@@ -67,7 +63,7 @@ Desire versus possibility
 
 ## What is Software Delivery?
 
-Plan → Build → Test → Release → Monitor
+Plan → Build → Test → Release → Monitor ⟲
 
 *It's a continuous loop, and never this simple*
 
