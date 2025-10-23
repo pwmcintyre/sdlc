@@ -1,9 +1,7 @@
 ---
-theme: "black"
-transition: "slide"
-highlightTheme: "monokai"
-slideNumber: true
-title: "Shipping Software"
+author: Peter McIntyre
+date: October 23, 2025
+paging: Slide %d / %d
 ---
 
 # Software Engineering
@@ -22,21 +20,19 @@ Principal Software Engineer
 - Real challenges you'll face
 - What to expect in your career
 
-Note: Set expectations: this is the real-world view, not the textbook version. I want you to walk away knowing what day-to-day software delivery actually looks like.
-
 ---
 
 ## The Software Development Lifecycle
 
 Or: How software actually gets built
 
---
+---
 
 ### Textbook SDLC
 
 Plan → Build → Test → Release → Monitor
 
---
+---
 
 ### SDLC vs Agile vs DevOps
 
@@ -48,21 +44,19 @@ You'll hear these terms constantly - here's how they fit together:
 
 They work together: SDLC is the structure, Agile is how you develop, DevOps is how you deliver.
 
-Note: SDLC is the umbrella term. Agile is one way to implement the development phases of SDLC. DevOps extends Agile practices into operations and deployment. You don't choose one - you use all three together.
-
---
+---
 
 ### Agile
 
 < insert the agile meme about building a car >
 
---
+---
 
 ### DevOps
 
 ![DevOps Infinity Loop](devops-infinity-loop.png)
 
---
+---
 
 ### The Reality
 
@@ -72,8 +66,6 @@ Note: SDLC is the umbrella term. Agile is one way to implement the development p
 - Production issues interrupt everything
 - Requirements change mid-sprint
 
-Note: The SDLC is more like a circle with lots of smaller circles inside it. You'll rarely complete one phase before starting another.
-
 ---
 
 ## The Technical Stack
@@ -82,7 +74,7 @@ Tools you'll use every single day
 
 < big image of all the logos >
 
---
+---
 
 # Tools
 
@@ -94,7 +86,7 @@ source controle (git)
 containers (docker)
 termnial (bash)
 
---
+---
 
 # Tasks
 
@@ -104,7 +96,7 @@ tech debt
 rubber duck
 whiteboard
 
---
+---
 
 ### Development Environment
 
@@ -115,9 +107,7 @@ whiteboard
 
 Git is non-negotiable. Learn it well.
 
-Note: You'll spend 80% of your time in your IDE and terminal. Docker lets you run complex systems locally without installing everything natively.
-
---
+---
 
 ### The CI/CD Pipeline
 
@@ -134,14 +124,9 @@ Continuous Integration / Continuous Deployment
   7. Manual approval for production
   8. Deploy to production
 
-Note: This automation is what allows us to deploy multiple times per day safely. Without it, every deployment would be manual and error-prone.
-
---
+---
 
 ### Cloud Infrastructure (AWS)
-
-<div style="display: flex; gap: 2rem;">
-<div style="flex: 1;">
 
 **Compute**
 - EC2 (virtual servers)
@@ -153,9 +138,6 @@ Note: This automation is what allows us to deploy multiple times per day safely.
 - RDS (databases)
 - DynamoDB (NoSQL)
 
-</div>
-<div style="flex: 1;">
-
 **Networking**
 - VPC (private networks)
 - Load Balancers
@@ -165,12 +147,7 @@ Note: This automation is what allows us to deploy multiple times per day safely.
 - Terraform
 - CloudFormation
 
-</div>
-</div>
-
-Note: At enterprise scale, you're not managing servers manually. Everything is code, everything is automated.
-
---
+---
 
 ### Monitoring & Observability
 
@@ -182,9 +159,7 @@ Note: At enterprise scale, you're not managing servers manually. Everything is c
 
 If you can't measure it, you can't improve it.
 
-Note: You'll spend a lot of time looking at dashboards and logs. When something breaks at 3am, these tools are how you figure out what went wrong.
-
---
+---
 
 ### Example: Deploying a Feature
 
@@ -213,15 +188,13 @@ git push origin feature/user-notifications
 # 9. Deploy to production
 ```
 
-Note: This whole process might take a few hours to a few days. The key is automation - most of this happens without manual intervention.
-
 ---
 
 ## Agile in Practice
 
 How teams actually work together
 
---
+---
 
 ### The Sprint Cycle (2 weeks)
 
@@ -233,9 +206,7 @@ How teams actually work together
 
 Then repeat. Forever.
 
-Note: Agile is about iteration and continuous improvement. It's not about being perfect, it's about getting better every sprint.
-
---
+---
 
 ### Tickets & Story Points
 
@@ -244,9 +215,7 @@ Note: Agile is about iteration and continuous improvement. It's not about being 
 - **Ticket States:** Backlog → In Progress → Code Review → QA → Done
 - Your velocity improves as you learn the system
 
-Note: Story points are not hours. They're relative complexity. A 5-point story is roughly 5x more complex than a 1-point story.
-
---
+---
 
 ### Code Reviews
 
@@ -261,9 +230,7 @@ One of the most important practices
   - Are tests included?
 - **Pro tip:** Small PRs get reviewed faster
 
-Note: Code reviews are where you'll learn the most as a junior dev. Both from receiving feedback and from reviewing others' code. Don't take feedback personally - everyone's code gets reviewed.
-
---
+---
 
 ### Collaboration is Key
 
@@ -275,15 +242,13 @@ Note: Code reviews are where you'll learn the most as a junior dev. Both from re
 
 Software engineering is a team sport.
 
-Note: The lone genius programmer is a myth. Real work happens through collaboration and clear communication.
-
 ---
 
 ## Real Challenges
 
 The stuff they don't tell you in tutorials
 
---
+---
 
 ### Production Incidents
 
@@ -298,9 +263,7 @@ The stuff they don't tell you in tutorials
   6. Implement fixes to prevent recurrence
 - **Blameless culture:** Focus on systems, not individuals
 
-Note: Everyone breaks production eventually. It's how you respond that matters. Good companies have blameless postmortems to learn from incidents.
-
---
+---
 
 ### Legacy Code & Technical Debt
 
@@ -313,9 +276,7 @@ Note: Everyone breaks production eventually. It's how you respond that matters. 
   - People leaving and taking context with them
 - Balance: new features vs. paying down debt
 
-Note: The code you write today is tomorrow's legacy code. Write it with future-you in mind.
-
---
+---
 
 ### Scaling Challenges
 
@@ -327,14 +288,9 @@ Note: The code you write today is tomorrow's legacy code. Write it with future-y
 
 Premature optimization is evil, but so is ignoring scale.
 
-Note: At enterprise scale, you can't just throw more servers at the problem. You need to think about architecture, data patterns, caching strategies.
-
---
+---
 
 ### Making Tradeoffs
-
-<div style="display: flex; gap: 2rem;">
-<div style="flex: 1;">
 
 **Perfect Solution**
 - 100% test coverage
@@ -343,9 +299,6 @@ Note: At enterprise scale, you can't just throw more servers at the problem. You
 - Handles all edge cases
 - Takes 6 months
 
-</div>
-<div style="flex: 1;">
-
 **Good Enough**
 - 80% test coverage
 - Key parts documented
@@ -353,14 +306,9 @@ Note: At enterprise scale, you can't just throw more servers at the problem. You
 - Handles common cases
 - Ships in 6 weeks
 
-</div>
-</div>
-
 Shipping imperfect software beats perfect software that never ships.
 
-Note: You'll constantly balance quality vs. speed. The key is knowing which tradeoffs are acceptable and which aren't. Security? Non-negotiable. Refactoring that function? Can wait.
-
---
+---
 
 ### Working with Ambiguity
 
@@ -369,15 +317,13 @@ Note: You'll constantly balance quality vs. speed. The key is knowing which trad
 - Build MVPs to validate assumptions
 - User feedback will change everything anyway
 
-Note: Get comfortable with uncertainty. Your job is to clarify requirements, not just implement them blindly.
-
 ---
 
 ## What to Expect in Your Career
 
 The journey from junior to principal
 
---
+---
 
 ### Junior → Mid → Senior → Principal
 
@@ -388,9 +334,7 @@ The journey from junior to principal
 
 These are rough guidelines. Focus on impact, not titles.
 
-Note: Progression isn't automatic. You grow by taking on more responsibility. Each level requires different skills - coding skills plateau, but leadership skills grow.
-
---
+---
 
 ### Your First Job
 
@@ -401,9 +345,7 @@ Note: Progression isn't automatic. You grow by taking on more responsibility. Ea
 - Find a mentor or senior to learn from
 - You'll make mistakes - own them and learn
 
-Note: The difference between junior and senior isn't knowledge. It's knowing what you don't know and how to find answers.
-
---
+---
 
 ### Continuous Learning
 
@@ -418,9 +360,7 @@ Note: The difference between junior and senior isn't knowledge. It's knowing wha
   - Learn from production incidents
 - Focus on fundamentals that don't change: algorithms, data structures, design patterns
 
-Note: The specific tools will change, but the underlying principles stay the same. Learn how to learn, not just what to learn.
-
---
+---
 
 ### Red Flags in Companies
 
@@ -431,9 +371,7 @@ Note: The specific tools will change, but the underlying principles stay the sam
 - Unlimited overtime expectations
 - No investment in developer tools or training
 
-Note: You'll learn bad habits at bad companies. Look for places that invest in quality and their people.
-
---
+---
 
 ### Green Flags in Companies
 
@@ -445,9 +383,7 @@ Note: You'll learn bad habits at bad companies. Look for places that invest in q
 - Healthy work-life balance
 - Clear career progression paths
 
-Note: Ask about these things in interviews. The company is interviewing you, but you're also interviewing them.
-
---
+---
 
 ### Skills Beyond Code
 
@@ -458,8 +394,6 @@ Note: Ask about these things in interviews. The company is interviewing you, but
 - **Adaptability:** Technologies and priorities change
 
 These "soft skills" become more important as you advance.
-
-Note: At senior+ levels, your technical skills are assumed. What differentiates you is how you work with others and drive impact.
 
 ---
 

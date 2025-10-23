@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # Known Unknowns vs Unknown Unknowns
 
 ---

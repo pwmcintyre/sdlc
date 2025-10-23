@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # The Paradox of Simplicity
 
 ---

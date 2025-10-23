@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # Surprisingly Hard Things in Software Engineering
 
 ---

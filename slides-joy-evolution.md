@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # The Evolution of Joy in Tech Careers
 
 ---

@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # Desire Meets Possibility: When Technology Shifts the Boundary
 
 ---

@@ -1,3 +1,7 @@
+---
+paging: Slide %d / %d
+---
+
 # Deletion as a Feature: The Art of Subtraction
 
 ---
