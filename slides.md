@@ -28,7 +28,7 @@ Principal Software Engineer
 
 - Video Games
 - Calculators
-- Studied; Opportunity!
+- Studied > Opportunity!
 - Mainframes > Cloud > Consulting
 
 > Luck is what happens when preparation meets opportunity
@@ -43,6 +43,9 @@ Desire versus possibility
 ---
 
 ### Academic vs Industrial
+
+> The great growling engine of change - technology
+> — Alvin Toffler
 
 1. Desire exists (users want it)
 2. Technology doesn't exist (infeasible)
@@ -166,24 +169,23 @@ Know your expectations:
 
 ## Your First Job
 
-- You won't know everything (nobody does)
+(and every job after that)
+
+- Expect to be overwhelmed
 - Imposter syndrome is normal
-- Ask questions - it's expected
+- Ask questions
 - Find a mentor
-- Own your mistakes and learn
+- Own your mistakes
 
 ---
 
 ## Continuous Learning
 
-Technology changes constantly.
-
-**Ways to keep learning:**
 - Read other people's code
-- Build side projects
-- Contribute to open source
-- Learn from production incidents
-- Focus on fundamentals (algorithms, data structures, design patterns)
+- Read other languages
+- Side projects
+- Read about incidents / hacks
+- Learn fundamentals
 
 ---
 
@@ -209,32 +211,40 @@ Technology changes constantly.
 
 ## The Impact of AI
 
-**What's changing:**
+---
+
+### What's changing
+
 - Natural language interfaces replacing complex UIs
 - AI-assisted coding (GitHub Copilot, Claude Code)
 
-**What's not changing:**
+### What's not changing
+
 - Need to understand fundamentals
 - System design and architecture
 - Human judgment and tradeoffs
 
 ---
 
-## AI: Deletion Opportunity
+## Opportunity
 
-Before LLMs:
+---
+
+### Before LLMs
+
 - Search engines
 - Administrative overhead
 - Complex UI's
 
-After LLMs:
+### After LLMs
+
 - Answer engines
 - Agentic assistants
 - Conversational interfaces
 
 ---
 
-## Outro / Questions
+## Outro / Questions / Demo
 
 > I'd have written a shorter letter,
 > but I did not have the time.
