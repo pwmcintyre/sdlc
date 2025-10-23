@@ -10,6 +10,8 @@ Peter McIntyre
 
 Principal Software Engineer
 
+18 YoE
+
 ---
 
 ## What We'll Cover
@@ -25,10 +27,37 @@ Principal Software Engineer
 
 ## My Story
 
-- Started with excitement for cutting-edge tech
-- Learned through complexity and 3am incidents
-- Now find joy in simplicity and deletion
-- Watched technology shift from impossible to trivial
+- Video Games
+- Calculators
+- No idea, no plan
+- Opportunity!
+- Mainframes > Cloud > Versent
+
+---
+
+## What even is this industry?
+
+Desire versus possibility
+
+---
+
+### Academic vs Industrial
+
+1. Desire exists (users want it)
+2. Technology doesn't exist (infeasible)
+3. 👨‍💻 Workarounds accumulate (complexity builds)
+4. 🔬 Technology breakthrough (constraint removed)
+5. 👨‍💻 **DELETE all the workarounds**
+
+---
+
+### Example: Natural Language Interfaces
+
+- **Desired since 1950s:** Talk to computers naturally
+- **Impossible until 2017:** Rule-based NLP was fragile
+- **Workarounds:** GUIs, menus, training manuals, syntax
+- **Breakthrough:** Transformers, GPT, ChatGPT (2022)
+- **Result:** Delete 90% of traditional UI complexity
 
 ---
 
@@ -36,7 +65,7 @@ Principal Software Engineer
 
 Plan → Build → Test → Release → Monitor
 
-It's a continuous loop, not linear.
+*It's a continuous loop, and never this simple*
 
 ---
 
@@ -50,14 +79,40 @@ It's a continuous loop, not linear.
 
 ## The Reality
 
-- Monitoring feeds back into planning
+- Context switching is inevitable
+- You can't control everything
+- Everything fails eventually
 - Production issues interrupt everything
 - Requirements change mid-sprint
-- You're coding, testing, and fixing simultaneously
 
 ---
 
-## Patterns: Choose Boring Technology
+## Random Concepts
+
+---
+
+### Un/known Quadrants
+
+> "There are known knowns... known unknowns... but also unknown unknowns."
+> — Donald Rumsfeld
+
+( Awareness vs Understanding )
+
+---
+
+### Code is a Liability
+
+> "Don't write code if you don't have to."
+> — Kelsey Hightower #nocode
+
+https://github.com/kelseyhightower/nocode
+
+> No code is the best way to write secure and reliable applications.
+> Write nothing; deploy nowhere.
+
+---
+
+### Concept: Choose Boring Technology
 
 > "Let's say every company gets about three innovation tokens."
 > — Dan McKinley
@@ -66,16 +121,12 @@ Spend them on your competitive advantage, not databases.
 
 ---
 
-## Known vs Unknown Unknowns
+## Enduring Skills
 
-**Boring tech:**
-- Known failure modes
-- Documented workarounds
-- Vast community knowledge
-
-**Shiny tech:**
-- Unknown unknowns emerge at 3am
-- You are the community
+- Technical writing
+- Working in a team
+- Source control (Git)
+- Networking / computer fundamentals (BS filter)
 
 ---
 
@@ -90,98 +141,27 @@ These don't get solved. They get managed.
 
 ---
 
-## The Joy Evolution
-
-**Early career:** "We're using Rust + GraphQL!"
-- Joy from learning new tech
-- Building résumé
-
-**Later career:** "We shipped it in two days with Rails."
-- Joy from shipping features
-- Going home on time
-
----
-
 ## The Simplicity Paradox
 
-> "I have made this letter longer than usual, only because I have not had the time to make it shorter."
+> If I had more time...
+> I'd have written a shorter letter.
 > — Blaise Pascal
 
-Adding complexity is easy.
-
-Achieving simplicity is hard.
-
----
-
-## Code is a Liability
-
-**Traditional thinking (WRONG):**
-- More code = More productivity
-
-**Reality:**
-- Code = Maintenance burden
-- Best code = Code you didn't write
-
-The most productive PRs delete 10x more than they add.
+Complexity is easy.
+Simplicity is hard.
 
 ---
 
-## Deletion as a Feature
+## CI/CD: Confidence Through Automation
 
-> "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
-> — Antoine de Saint-Exupéry
+**Why automate?**
+- Reduce friction and risk
+- Build confidence through consistency
+- Make deployment predictable, not stressful
 
-Examples:
-- Apple 1997: Deleted 70% of products, saved the company
-- iPhone: Traditional phone minus physical keyboard
-- Tesla: Traditional car minus hundreds of mechanical parts
+> "Slow is smooth, smooth is fast."
 
----
-
-## Desire Meets Possibility
-
-**The Pattern:**
-1. Desire exists (users want it)
-2. Technology can't deliver (infeasible)
-3. Workarounds accumulate (complexity builds)
-4. Technology breakthrough (constraint removed)
-5. **DELETE all the workarounds**
-
----
-
-## Example: Natural Language Interfaces
-
-**Desired since 1950s:** Talk to computers naturally
-
-**Impossible until 2017:** Rule-based NLP was fragile
-
-**Workarounds:** GUIs, menus, training manuals, syntax
-
-**Breakthrough:** Transformers, GPT, ChatGPT (2022)
-
-**Result:** Delete 90% of traditional UI complexity
-
----
-
-## Tools of the Trade
-
-**Essential:**
-- Git (non-negotiable)
-- Terminal/CLI
-- IDE (VS Code, IntelliJ)
-- Docker/containers
-
-Everything else is convenience.
-
----
-
-## The CI/CD Pipeline
-
-Push code → Lint → Test → Build → Deploy
-
-Continuous Integration / Continuous Deployment
-
-Automate everything that can be automated.
+Automation removes anxiety.
 
 ---
 
@@ -194,6 +174,19 @@ Automate everything that can be automated.
 **Monitoring:** Logs, metrics, alerts
 
 **Infrastructure as Code:** Terraform, CloudFormation
+
+---
+
+## Trust and Stability as Goals
+
+Modern engineering isn't just about speed.
+
+**Build trust in:**
+- The code (tests, reviews, quality)
+- The process (repeatable, documented)
+- The team (psychological safety, collaboration)
+
+Trust makes delivery stable, repeatable, and low-stress.
 
 ---
 
@@ -219,6 +212,19 @@ Software engineering is a team sport.
 - You'll read more than you write
 - Technical debt accumulates
 - Balance features vs. paying down debt
+
+---
+
+## The Phoenix Principle
+
+> From The Phoenix Project: "If something is painful, do it more often."
+
+**Examples:**
+- Deployments scary? Deploy daily → becomes routine
+- Releases stressful? Release weekly → builds confidence
+- Testing tedious? Automate it → removes friction
+
+Frequent practice turns anxiety into normalcy.
 
 ---
 
