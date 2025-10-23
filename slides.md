@@ -118,16 +118,26 @@ Goal: improve software development processes
 
 ---
 
-## Trust and Stability as Goals
+## The Phoenix Principle
 
-Modern engineering isn't just about speed.
+> If something is painful, do it ~more~ often.
+> — The Phoenix Project
 
-**Build trust in:**
-- The code (tests, reviews, quality)
-- The process (repeatable, documented)
-- The team (psychological safety, collaboration)
+**Examples:**
+- Deployments scary? more!
+- Releases stressful? more!!
+- Testing tedious? MORE!!!!1
 
-Trust makes delivery stable, repeatable, and low-stress.
+---
+
+## Tradeoffs
+
+> Perfection is the enemy of progress.
+> — Voltaire
+
+Perfect: 100% test coverage? Takes 6 months ✋
+
+Good enough: 80% test coverage? Ships in 6 weeks 🤘
 
 ---
 
@@ -136,36 +146,9 @@ Trust makes delivery stable, repeatable, and low-stress.
 - Time (timezones, leap seconds, distributed clocks)
 - Names (cache invalidation, naming variables)
 - Exactly once (impossible in distributed systems)
-- Auth (eternal cat-and-mouse game)
+- Security (eternal cat-and-mouse game)
 
 These don't get solved. They get managed.
-
----
-
-## The Phoenix Principle
-
-> From The Phoenix Project: "If something is painful, do it more often."
-
-**Examples:**
-- Deployments scary? Deploy daily → becomes routine
-- Releases stressful? Release weekly → builds confidence
-- Testing tedious? Automate it → removes friction
-
-Frequent practice turns anxiety into normalcy.
-
----
-
-## Making Tradeoffs
-
-Perfect solution:
-- 100% test coverage
-- Takes 6 months
-
-Good enough:
-- 80% test coverage
-- Ships in 6 weeks
-
-Shipping imperfect software beats perfect software that never ships.
 
 ---
 
