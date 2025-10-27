@@ -1,5 +1,10 @@
 # Software Delivery in the Real World
 
-Software delivery at enterprise scale.
+This is a slide pack catering for students of IT.
 
-See `./slides.md` and use VS Code Reveal.
+See `./slides.md`
+
+Render using:
+https://github.com/maaslalani/slides
+
+There are other markdown files with half considered ideas, that have been summarized into the main deck.

@@ -12,14 +12,12 @@ later, joy will come from doing less
 
 #nocode
 
-a gantt chart of tech and how long they have been useful
-
 known unknowns
 unknown unknowns
 
 failure modes of boring tech is well understood
 
-Fundamentals
+Fundamentals?
 - storage
 - processing
 - operations
